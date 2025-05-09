@@ -5,21 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "legal_innovation_challenge_market_place",
-            "cwd": "legal_innovation_challenge_market_place",
+            "name": "legal_innovation",
+            "cwd": "legal_innovation",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "legal_innovation_challenge_market_place (profile mode)",
-            "cwd": "legal_innovation_challenge_market_place",
+            "name": "legal_innovation (profile mode)",
+            "cwd": "legal_innovation",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "legal_innovation_challenge_market_place (release mode)",
-            "cwd": "legal_innovation_challenge_market_place",
+            "name": "legal_innovation (release mode)",
+            "cwd": "legal_innovation",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
