@@ -23,8 +23,9 @@ jobs:
       - name: Install dependencies
         run: |
           cd legal_innovation
-          flutter pub get --no-verify
-          flutter pub override intl:0.18.1
+          flutter pub cache repair
+          flutter pub get
+          flutter pub add intl:0.18.1 --override
           flutter pub get
 
       - name: Build web
